@@ -7,3 +7,5 @@ node-modules/
 .eslintcache
 /node_modules/
 *.mo
+
+/subprojects/blueprint-compiler

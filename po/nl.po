@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ronniedroid.concessio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-17 15:39+0300\n"
+"POT-Creation-Date: 2026-09-20 22:18+0300\n"
 "PO-Revision-Date: 2024-11-20 15:25+0300\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: \n"
@@ -18,31 +18,312 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: data/ui/BoxedList.ui:12 data/ui/HelpDialog.ui:67
+#: data/io.github.ronniedroid.concessio.desktop.in:2
+#: data/io.github.ronniedroid.concessio.metainfo.xml.in:5
+#: src/application.vala:59 src/window.blp:5 src/window.blp:56
+msgid "Concessio"
+msgstr "Concessio"
+
+#: data/io.github.ronniedroid.concessio.desktop.in:3
+#: data/io.github.ronniedroid.concessio.metainfo.xml.in:6 src/window.blp:64
+msgid "Understand file permissions"
+msgstr "Inzicht in bestandsrechten"
+
+#: data/io.github.ronniedroid.concessio.desktop.in:9
+#, fuzzy
+msgid "Permissions;Converter;Calculator;"
+msgstr "Rechten;Converteren;Berekenen;Bevoegdheden;Permissies;Machtigingen;"
+
+#: data/io.github.ronniedroid.concessio.metainfo.xml.in:8
+msgid "Ronnie Nissan"
+msgstr ""
+
+#: data/io.github.ronniedroid.concessio.metainfo.xml.in:11
+#: src/application.vala:61
+msgid ""
+"Concessio helps you understand and convert between unix permissions "
+"representations"
+msgstr ""
+"Met Concessio krijgt u inzicht in Unixrechten en hulp bij het converteren en/"
+"of berekenen ervan"
+
+#: data/io.github.ronniedroid.concessio.metainfo.xml.in:13
+msgid ""
+"Convert between symbolic and numeric representations of UNIX file permissions"
+msgstr "Converteer symbolische en numerieke Unixrechten"
+
+#: data/io.github.ronniedroid.concessio.metainfo.xml.in:14
+msgid "Use toggle buttons to update the symbolic and numeric fields"
+msgstr "Klik op de schakelaars om de velden bij te werken"
+
+#: data/io.github.ronniedroid.concessio.metainfo.xml.in:15
+msgid "Open a file to read it's permissions and convert them"
+msgstr "Open een bestand om de rechten ervan uit te lezen en/of te converteren"
+
+#: data/io.github.ronniedroid.concessio.metainfo.xml.in:16
+msgid "Open the help dialog to read and understand the UNIX permissions system"
+msgstr "Open het hulpvenster om het Unix-rechtensysteem te leren begrijpen"
+
+#: data/io.github.ronniedroid.concessio.metainfo.xml.in:30
+msgid ""
+"Application main page converting between numeric and symbolic permission"
+msgstr "Hoofdvenster met convertering tussen numerieke en symbolische rechten"
+
+#: data/io.github.ronniedroid.concessio.metainfo.xml.in:34
+msgid "Application help page, explaining unix permissions"
+msgstr "Hulpvenster met uitleg omtrent Unixrechten"
+
+#: data/io.github.ronniedroid.concessio.metainfo.xml.in:38
+#, fuzzy
+msgid ""
+"Application umask page, calculating the umask value for a base permission"
+msgstr "Hoofdvenster met convertering tussen numerieke en symbolische rechten"
+
+#: src/shortcuts-dialog.blp:7
+msgid "Quit App"
+msgstr "Toepassing afsluiten"
+
+#: src/shortcuts-dialog.blp:12
+msgid "Close Window"
+msgstr "Venster sluiten"
+
+#: src/shortcuts-dialog.blp:17
+msgid "Help dialog"
+msgstr "Hulpvenster openen"
+
+#: src/shortcuts-dialog.blp:18
+msgid "Display the help dialog"
+msgstr "Toon het hulpvenster"
+
+#: src/shortcuts-dialog.blp:23 src/window.blp:190
+msgid "Keyboard Shortcuts"
+msgstr "Sneltoetsen"
+
+#: src/shortcuts-dialog.blp:24
+msgid "Display this keyboard shortcuts window"
+msgstr "Toon dit sneltoetsenvenster"
+
+#: src/application.vala:68
+msgid "translator-credits"
+msgstr "Heimen Stoffels <vistausss@fastmail.com>"
+
+#: src/application.vala:76
+msgid "Embellish"
+msgstr ""
+
+#: src/application.vala:76
+msgid "Install nerd fonts"
+msgstr ""
+
+#: src/application.vala:77
+msgid "Sitra"
+msgstr ""
+
+#: src/application.vala:77
+msgid "Get fonts from online sources"
+msgstr ""
+
+#: src/application.vala:78
+msgid "Special thanks to"
+msgstr "Veel dank aan"
+
+#: src/window.vala:53
+#, c-format
+msgid "Copied “%s”"
+msgstr ""
+
+#: src/window.vala:60
+#, c-format
+msgid "Permissions for “%s” updated to %s"
+msgstr ""
+
+#: src/window.vala:65
+msgid "Undo"
+msgstr ""
+
+#: src/window.vala:133 src/window.vala:188
+msgid "Failed to open file."
+msgstr "Het bestand kan niet worden geopend."
+
+#: src/window.vala:159
+msgid "Drop one file at a time"
+msgstr ""
+
+#: src/window.vala:160 src/window.blp:128
+#, fuzzy
+msgid "Drop to view permissions"
+msgstr "Inzicht in bestandsrechten"
+
+#: src/window.blp:68
+msgid "Get started"
+msgstr "Aan de slag"
+
+#: src/window.blp:99
+msgid "Main Menu"
+msgstr "Hoofdmenu"
+
+#: src/window.blp:118
+#, fuzzy
+msgid "Permissions"
+msgstr "Unixrechten"
+
+#: src/window.blp:156 src/umask.blp:19 src/umask.blp:64
+msgid "Umask"
+msgstr ""
+
+#: src/window.blp:185 src/help-dialog.blp:5 src/help-dialog.blp:15
+msgid "Help"
+msgstr "Hulp"
+
+#: src/window.blp:195
+msgid "About"
+msgstr "Over"
+
+#: src/permissions.vala:393
+#, fuzzy
+msgid "Could Not Apply Permissions"
+msgstr "Inzicht in bestandsrechten"
+
+#: src/permissions.vala:397
+#, fuzzy
+msgid "Close"
+msgstr "Venster sluiten"
+
+#. Use "Document Portal" as fallback
+#: src/permissions.vala:454
+msgid "Document Portal"
+msgstr ""
+
+#: src/permissions.blp:25 src/permissions.blp:33
+msgid "Open File"
+msgstr "Bestand openen"
+
+#: src/permissions.blp:38 src/permissions.blp:47
+#, fuzzy
+msgid "Open a file to view its permissions"
+msgstr "Open een bestand om de rechten ervan uit te lezen en/of te converteren"
+
+#: src/permissions.blp:54 src/permissions.blp:59
+#, fuzzy
+msgid "Open a file"
+msgstr "Bestand openen"
+
+#: src/permissions.blp:105 src/permissions.blp:110
+msgid "Open a different file"
+msgstr ""
+
+#: src/permissions.blp:116 src/permissions.blp:121
+#, fuzzy
+msgid "Close file"
+msgstr "Venster sluiten"
+
+#: src/permissions.blp:127
+#, fuzzy
+msgid "Apply permission changes"
+msgstr "Speciale rechten"
+
+#: src/permissions.blp:136
+msgid "Apply permission changes to file"
+msgstr ""
+
+#: src/permissions.blp:153
+msgid "Numeric"
+msgstr "Numeriek"
+
+#: src/permissions.blp:168 src/permissions.blp:219
+msgid "Copy value"
+msgstr "Waarde kopiëren"
+
+#: src/permissions.blp:172
+#, fuzzy
+msgid "Copy numeric value"
+msgstr "Waarde kopiëren"
+
+#: src/permissions.blp:181
+#, fuzzy
+msgid "Numeric permissions"
+msgstr "Unixrechten"
+
+#: src/permissions.blp:182
+msgid "Enter three or four octal digits, for example 0755"
+msgstr ""
+
+#: src/permissions.blp:188 src/permissions.blp:245 src/umask.blp:46
+#: src/umask.blp:50
+#, fuzzy
+msgid "Apply value"
+msgstr "Waarde kopiëren"
+
+#: src/permissions.blp:192
+#, fuzzy
+msgid "Apply numeric value"
+msgstr "Waarde kopiëren"
+
+#: src/permissions.blp:204
+msgid "Symbolic"
+msgstr "Symbolisch"
+
+#: src/permissions.blp:223
+#, fuzzy
+msgid "Copy symbolic value"
+msgstr "Waarde kopiëren"
+
+#: src/permissions.blp:232
+#, fuzzy
+msgid "Symbolic permissions"
+msgstr "Unixrechten"
+
+#: src/permissions.blp:234
+msgid ""
+"Enter nine characters representing read, write, and execute permissions for "
+"user, group, and others, for example rwxr-xr-x"
+msgstr ""
+
+#: src/permissions.blp:249
+#, fuzzy
+msgid "Apply symbolic value"
+msgstr "Waarde kopiëren"
+
+#: src/permissions.blp:264 src/help-dialog.blp:148
 msgid "User"
 msgstr "Gebruiker"
 
-#: data/ui/BoxedList.ui:21 data/ui/BoxedList.ui:89 data/ui/BoxedList.ui:157
+#: src/permissions.blp:273 src/permissions.blp:391 src/permissions.blp:509
 msgid "Read"
 msgstr "Lezen"
 
-#: data/ui/BoxedList.ui:36 data/ui/BoxedList.ui:104 data/ui/BoxedList.ui:172
+#: src/permissions.blp:276
+#, fuzzy
+msgid "User read permission"
+msgstr "Inzicht in bestandsrechten"
+
+#: src/permissions.blp:290 src/permissions.blp:408 src/permissions.blp:526
 msgid "Write"
 msgstr "Schrijven"
 
-#: data/ui/BoxedList.ui:51 data/ui/BoxedList.ui:119 data/ui/BoxedList.ui:187
+#: src/permissions.blp:293
+#, fuzzy
+msgid "User write permission"
+msgstr "Inzicht in bestandsrechten"
+
+#: src/permissions.blp:307 src/permissions.blp:425 src/permissions.blp:543
 msgid "Execute"
 msgstr "Uitvoeren"
 
-#: data/ui/BoxedList.ui:80 data/ui/HelpDialog.ui:78
-msgid "Group"
-msgstr "Groep"
+#: src/permissions.blp:310
+#, fuzzy
+msgid "User execute permission"
+msgstr "Inzicht in bestandsrechten"
 
-#: data/ui/BoxedList.ui:148 data/ui/HelpDialog.ui:89
-msgid "Others"
-msgstr "Anderen"
+#: src/permissions.blp:329
+msgid "Set user ID SUID options"
+msgstr ""
 
-#: data/ui/BoxedList.ui:247 data/ui/HelpDialog.ui:261
+#: src/permissions.blp:363
+msgid "Set user ID SUID switch"
+msgstr ""
+
+#: src/permissions.blp:369 src/help-dialog.blp:392
 msgid ""
 "Executes the file with the permissions of the file owner, not the user "
 "running it."
@@ -50,7 +331,34 @@ msgstr ""
 "Voert het bestand uit met de rechten van de eigenaar, niet die van de "
 "huidige gebruiker."
 
-#: data/ui/BoxedList.ui:288 data/ui/HelpDialog.ui:267
+#: src/permissions.blp:382 src/help-dialog.blp:160
+msgid "Group"
+msgstr "Groep"
+
+#: src/permissions.blp:394
+#, fuzzy
+msgid "Group read permission"
+msgstr "Speciale rechten"
+
+#: src/permissions.blp:411
+#, fuzzy
+msgid "Group write permission"
+msgstr "Inzicht in bestandsrechten"
+
+#: src/permissions.blp:428
+#, fuzzy
+msgid "Group execute permission"
+msgstr "Speciale rechten"
+
+#: src/permissions.blp:447
+msgid "Set group ID SGID options"
+msgstr ""
+
+#: src/permissions.blp:481
+msgid "Set group ID SGID switch"
+msgstr ""
+
+#: src/permissions.blp:487 src/help-dialog.blp:400
 msgid ""
 "Executes the file with the permissions of the file's group, or ensures new "
 "files in a directory inherit the group."
@@ -58,7 +366,33 @@ msgstr ""
 "Voert het bestand uit met rechten van de groep of zorgt ervoor dat nieuwe "
 "bestanden in de map de groepsrechten overnemen."
 
-#: data/ui/BoxedList.ui:329 data/ui/HelpDialog.ui:273
+#: src/permissions.blp:500 src/help-dialog.blp:172
+msgid "Others"
+msgstr "Anderen"
+
+#: src/permissions.blp:512
+#, fuzzy
+msgid "Other users read permission"
+msgstr "De soorten rechten zijn:"
+
+#: src/permissions.blp:529
+#, fuzzy
+msgid "Other users write permission"
+msgstr "Inzicht in bestandsrechten"
+
+#: src/permissions.blp:546
+msgid "Other users execute permission"
+msgstr ""
+
+#: src/permissions.blp:565
+msgid "Sticky bit options"
+msgstr ""
+
+#: src/permissions.blp:599
+msgid "Sticky bit switch"
+msgstr ""
+
+#: src/permissions.blp:605 src/help-dialog.blp:408
 msgid ""
 "Allows only the file owner or directory owner to delete files in the "
 "directory, even if others have write permissions. Only applies to "
@@ -68,27 +402,24 @@ msgstr ""
 "zelfs als anderen over schrijfrechten beschikken. Alleen van toepassing op "
 "mappen; niet op bestanden."
 
-#: data/ui/Form.ui:16
-msgid "Numeric"
-msgstr "Numeriek"
+#: src/help-dialog.blp:44
+msgid "Table of Contents"
+msgstr ""
 
-#: data/ui/Form.ui:25 data/ui/Form.ui:49
-msgid "Copy value"
-msgstr "Waarde kopiëren"
-
-#: data/ui/Form.ui:40
-msgid "Symbolic"
-msgstr "Symbolisch"
-
-#: data/ui/HelpDialog.ui:13 data/ui/Window.ui:140
-msgid "Help"
-msgstr "Hulp"
-
-#: data/ui/HelpDialog.ui:37
+#: src/help-dialog.blp:61 src/help-dialog.blp:107
 msgid "Unix Permissions"
 msgstr "Unixrechten"
 
-#: data/ui/HelpDialog.ui:46
+#: src/help-dialog.blp:74 src/help-dialog.blp:349
+msgid "Special Permissions"
+msgstr "Speciale rechten"
+
+#: src/help-dialog.blp:87 src/help-dialog.blp:596
+#, fuzzy
+msgid "umask"
+msgstr "Over"
+
+#: src/help-dialog.blp:118
 msgid ""
 "The Unix permissions system is used to grant granulated access to file and "
 "directories on a Unix-like operating system"
@@ -96,39 +427,39 @@ msgstr ""
 "Het Unix-rechtensysteem wordt gebruikt om nauwgezette toegang tot bestanden "
 "en mappen te verlenen"
 
-#: data/ui/HelpDialog.ui:52
+#: src/help-dialog.blp:131
 msgid "Permissions are granted to three groups:"
 msgstr "Rechten kunnen binnen drie groepen worden verleend:"
 
-#: data/ui/HelpDialog.ui:68
+#: src/help-dialog.blp:149
 msgid "The owner of the file"
 msgstr "De eigenaar van het bestand"
 
-#: data/ui/HelpDialog.ui:79
+#: src/help-dialog.blp:161
 msgid "A group of users who share access to the file"
 msgstr "Een groep gebruikers die toegang tot het bestand heeft"
 
-#: data/ui/HelpDialog.ui:90
+#: src/help-dialog.blp:173
 msgid "All other users on the system"
 msgstr "Alle andere gebruikers"
 
-#: data/ui/HelpDialog.ui:102
+#: src/help-dialog.blp:191
 msgid "The types of permissions are:"
 msgstr "De soorten rechten zijn:"
 
-#: data/ui/HelpDialog.ui:117
+#: src/help-dialog.blp:208
 msgid "Read (Symbolic: r, Numeric: 4)"
 msgstr "Lezen (symbolisch: r - numeriek: 4)"
 
-#: data/ui/HelpDialog.ui:118
+#: src/help-dialog.blp:209
 msgid "Allows viewing the file's contents or listing a directory's contents"
 msgstr "Staat toe dat bestands- of mapinhoud mag worden bekeken"
 
-#: data/ui/HelpDialog.ui:128
+#: src/help-dialog.blp:220
 msgid "Write (Symbolically: w, Numerically: 2)"
 msgstr "Schrijven (symbolisch: w - numeriek: 2)"
 
-#: data/ui/HelpDialog.ui:129
+#: src/help-dialog.blp:222
 msgid ""
 "Allows modifying the file's contents or creating/deleting files within a "
 "directory"
@@ -136,15 +467,15 @@ msgstr ""
 "Staat toe dat bestands- en mapinhoud mag worden aangemaakt, bewerkt of "
 "verwijderd"
 
-#: data/ui/HelpDialog.ui:139
+#: src/help-dialog.blp:234
 msgid "Execute (Symbolically: x, Numerically: 1)"
 msgstr "Uitvoeren (symbolisch: x - numeriek: 1)"
 
-#: data/ui/HelpDialog.ui:140
+#: src/help-dialog.blp:235
 msgid "Allows running the file as a program"
 msgstr "Staat toe dat een bestand mag worden uitgevoerd als programma"
 
-#: data/ui/HelpDialog.ui:153
+#: src/help-dialog.blp:249
 msgid ""
 "Permissions can either be represented symbolically or numerically. Symbolic "
 "permissions are represented as a string of ten characters, and numeric is "
@@ -154,27 +485,27 @@ msgstr ""
 "rechten bestaan uit een tekenreeks van 10 tekens; numerieke uit drie "
 "getallen (octaal). Voorbeeld:"
 
-#: data/ui/HelpDialog.ui:159
+#: src/help-dialog.blp:256
 msgid "Symbolic: -rwxr-xr--"
 msgstr "Symbolisch: -rwxr-xr--"
 
-#: data/ui/HelpDialog.ui:169
+#: src/help-dialog.blp:267
 msgid "Numeric: 754"
 msgstr "Numeriek: 754"
 
-#: data/ui/HelpDialog.ui:184
+#: src/help-dialog.blp:284
 msgid "First character, the file type"
 msgstr "Het eerste teken (bestandstype)"
 
-#: data/ui/HelpDialog.ui:185
+#: src/help-dialog.blp:285
 msgid "can either be '-' for file or 'd' for directory"
 msgstr "kan ‘-’ zijn, wat een bestand aanduidt, of ‘d’, een map"
 
-#: data/ui/HelpDialog.ui:190
+#: src/help-dialog.blp:290
 msgid "First three positions (after file type)"
 msgstr "Eerste drie plaatsen (na bestandstype)"
 
-#: data/ui/HelpDialog.ui:191
+#: src/help-dialog.blp:292
 msgid ""
 "The read, write and execute permissions for the user, here we have 'rwx', "
 "which translated to 4+2+1 and adds to 7"
@@ -182,11 +513,11 @@ msgstr ""
 "De lees-, schrijf- en uitvoerrechten van de gebruiker, in dit geval ‘rwx’, "
 "wat zich laat vertalen naar 4+2+1=7"
 
-#: data/ui/HelpDialog.ui:196
+#: src/help-dialog.blp:298
 msgid "Second three positions"
 msgstr "Laatste drie plaatsen"
 
-#: data/ui/HelpDialog.ui:197
+#: src/help-dialog.blp:300
 msgid ""
 "The read, write and execute permissions for the group, here we have 'r-x', "
 "which translated to 4+0+1 and adds to 5"
@@ -194,11 +525,11 @@ msgstr ""
 "De lees-, schrijf- en uitvoerrechten van de groep, in dit geval ‘r-x’, wat "
 "zich laat vertalen naar 4+0+1=5"
 
-#: data/ui/HelpDialog.ui:202
+#: src/help-dialog.blp:306
 msgid "Last three positions"
 msgstr "Laatste drie plaatsen"
 
-#: data/ui/HelpDialog.ui:203
+#: src/help-dialog.blp:308
 msgid ""
 "The read, write and execute permissions for other users, here we have 'r--', "
 "which translated to 4+0+0 and adds to 4"
@@ -206,19 +537,11 @@ msgstr ""
 "De lees-, schrijf- en uitvoerrechten van andere gebruikers, in dit geval "
 "‘r--’, wat zich laat vertalen naar 4+0+0=4"
 
-#: data/ui/HelpDialog.ui:211
+#: src/help-dialog.blp:322 src/help-dialog.blp:707
 msgid "Example command"
 msgstr "Voorbeeldopdracht"
 
-#: data/ui/HelpDialog.ui:220
-msgid "chmod 754 (file name)"
-msgstr "chmod 754 (bestandsnaam)"
-
-#: data/ui/HelpDialog.ui:230
-msgid "Special Permissions"
-msgstr "Speciale rechten"
-
-#: data/ui/HelpDialog.ui:239
+#: src/help-dialog.blp:360
 msgid ""
 "Special permissions make up a fourth access level in addition to user, "
 "group, and other, they allow for additional privileges over the standard "
@@ -227,19 +550,19 @@ msgstr ""
 "Speciale rechten bieden een vierde toegangsniveau, naast gebruiker, groep en "
 "overig. Zo kunnen aanvullende bevoegdheden nauwkeurig worden afgesteld"
 
-#: data/ui/HelpDialog.ui:245
+#: src/help-dialog.blp:373
 msgid "The three special permissions are:"
 msgstr "De drie speciale rechten zijn als volgt:"
 
-#: data/ui/HelpDialog.ui:281
+#: src/help-dialog.blp:416
 msgid "Special permissions can be represented symbolically or numerically."
 msgstr "Speciale rechten kunnen zowel symbolisch als numeriek worden getoond."
 
-#: data/ui/HelpDialog.ui:288
+#: src/help-dialog.blp:429
 msgid "Numeric representation:"
 msgstr "Numeriek:"
 
-#: data/ui/HelpDialog.ui:298
+#: src/help-dialog.blp:441
 msgid ""
 "They are denoted as an extra digit before the user, group and others "
 "permissions. Can Either be 0, 4, 2, 1 or any combination of them."
@@ -247,31 +570,31 @@ msgstr ""
 "Ze worden als extra getal voorafgaand aan gebruiker, groep en andere rechten "
 "getoond. Mogelijkheden: 0, 4, 2, 1 of combinaties daarvan."
 
-#: data/ui/HelpDialog.ui:308
+#: src/help-dialog.blp:459
 msgid "Symbolical representation:"
 msgstr "Symbolisch:"
 
-#: data/ui/HelpDialog.ui:324
+#: src/help-dialog.blp:477
 msgid "Goes where 'x' normally is for the user"
 msgstr "Vervangt ‘x’ van de gebruiker"
 
-#: data/ui/HelpDialog.ui:330
+#: src/help-dialog.blp:483
 msgid "Goes where 'x' normally is for the group"
 msgstr "Vervangt ‘x’ van de groep"
 
-#: data/ui/HelpDialog.ui:336
+#: src/help-dialog.blp:489
 msgid "Goes where 'x' normally is for others"
 msgstr "Vervangt ‘x’ van anderen"
 
-#: data/ui/HelpDialog.ui:344
+#: src/help-dialog.blp:496
 msgid "Symbolic: -rwsr-Sr-t"
 msgstr "Symbolisch: -rwsr-Sr-t"
 
-#: data/ui/HelpDialog.ui:354
+#: src/help-dialog.blp:507
 msgid "Numeric: 7745"
 msgstr "Numeriek: 7745"
 
-#: data/ui/HelpDialog.ui:370
+#: src/help-dialog.blp:526
 msgid ""
 "Represented as '4' numerically. Symbolically, it is either 's' if the owner "
 "has execute permissions or 'S' if not."
@@ -279,7 +602,7 @@ msgstr ""
 "Wordt numeriek als ‘4’ getoond. Symbolisch is dit een ‘s’ indien de eigenaar "
 "uitvoerrechten heeft of ‘S’ indien dit niet het geval is."
 
-#: data/ui/HelpDialog.ui:376
+#: src/help-dialog.blp:534
 msgid ""
 "Represented as '2' numerically. Symbolically, it is either 's' if the group "
 "has execute permissions or 'S' if not."
@@ -287,7 +610,7 @@ msgstr ""
 "Wordt numeriek als ‘2’ getoond. Symbolisch is dit een ‘s’ indien de groep "
 "uitvoerrechten heeft of ‘S’ indien dit niet het geval is."
 
-#: data/ui/HelpDialog.ui:382
+#: src/help-dialog.blp:542
 msgid ""
 "Represented as '1' numerically. Symbolically, it is either 't' if the others "
 "have execute permissions or 'T' if not."
@@ -295,136 +618,201 @@ msgstr ""
 "Wordt numeriek als ‘1’ getoond. Symbolisch is dit een ‘t’ indien anderen "
 "uitvoerrechten hebben of ‘T’ indien dit niet het geval is."
 
-#: data/ui/HelpDialog.ui:390
+#: src/help-dialog.blp:556
 msgid "Example commands"
 msgstr "Voorbeeldopdrachten"
 
-#: data/ui/HelpDialog.ui:399
-msgid "chmod 7745 (file name)"
-msgstr "chmod 7745 (bestandsnaam)"
+#: src/help-dialog.blp:580
+#, fuzzy
+msgid "Further reading about special permissions"
+msgstr "De drie speciale rechten zijn als volgt:"
 
-#: data/ui/HelpDialog.ui:409
-msgid "Further reading"
+#: src/help-dialog.blp:607
+msgid ""
+"The umask (user file-creation mask) determines the default permissions for "
+"new files and directories. It acts as a filter that 'masks out' specific "
+"bits from the base permissions."
+msgstr ""
+
+#: src/help-dialog.blp:620
+#, fuzzy
+msgid "Typical base permissions:"
+msgstr "Speciale rechten"
+
+#: src/help-dialog.blp:637
+msgid "Directories (Base: 777)"
+msgstr ""
+
+#: src/help-dialog.blp:638
+msgid "Full read, write, and execute permissions by default"
+msgstr ""
+
+#: src/help-dialog.blp:643
+msgid "Files (Base: 666)"
+msgstr ""
+
+#: src/help-dialog.blp:644
+msgid "Read and write permissions by default; execute is excluded for security"
+msgstr ""
+
+#: src/help-dialog.blp:657
+msgid "Calculation logic:"
+msgstr ""
+
+#: src/help-dialog.blp:669
+msgid ""
+"The final permission is calculated by taking the base and removing the bits "
+"set in the umask."
+msgstr ""
+
+#: src/help-dialog.blp:687
+msgid "umask 022"
+msgstr ""
+
+#: src/help-dialog.blp:688
+msgid ""
+"Removes write access for group and others. (Result: 755 for dirs, 644 for "
+"files)"
+msgstr ""
+
+#: src/help-dialog.blp:693
+msgid "umask 077"
+msgstr ""
+
+#: src/help-dialog.blp:694
+msgid ""
+"Removes all access for group and others. (Result: 700 for dirs, 600 for "
+"files)"
+msgstr ""
+
+#: src/help-dialog.blp:730
+msgid ""
+"Note: The umask command only lasts for the current session. You need to set "
+"the command in your bashrc or equivalent to make it permanent."
+msgstr ""
+
+#: src/help-dialog.blp:744
+#, fuzzy
+msgid "Further reading about umask"
 msgstr "Meer informatie"
 
-#: data/ui/Window.ui:4 data/ui/Window.ui:44
-#: data/io.github.ronniedroid.concessio.desktop:3
-#: data/io.github.ronniedroid.concessio.metainfo.xml:5 src/application.js:70
-msgid "Concessio"
-msgstr "Concessio"
+#: src/umask.vala:75
+#, fuzzy
+msgid "File permissions"
+msgstr "Unixrechten"
 
-#: data/ui/Window.ui:52 data/io.github.ronniedroid.concessio.desktop:4
-#: data/io.github.ronniedroid.concessio.metainfo.xml:6
-msgid "Understand file permissions"
-msgstr "Inzicht in bestandsrechten"
+#: src/umask.vala:80
+#, fuzzy
+msgid "Directory permissions"
+msgstr "Unixrechten"
 
-#: data/ui/Window.ui:57
-msgid "Get started"
-msgstr "Aan de slag"
+#: src/umask.vala:85 src/umask.blp:39
+msgid "Umask value"
+msgstr ""
 
-#: data/ui/Window.ui:87
-msgid "Open"
-msgstr "Openen"
+#: src/umask.vala:98
+msgid "Enter an octal value from 000 to 777."
+msgstr ""
 
-#: data/ui/Window.ui:96
-msgid "Main Menu"
-msgstr "Hoofdmenu"
+#: src/umask.vala:105
+msgid "A umask cannot add execute permission to new files."
+msgstr ""
 
-#: data/ui/Window.ui:144 data/ui/ShortcutsWindow.ui:42
-msgid "Keyboard Shortcuts"
-msgstr "Sneltoetsen"
-
-#: data/ui/Window.ui:148
-msgid "About"
-msgstr "Over"
-
-#: data/ui/ShortcutsWindow.ui:8
-msgid "File"
+#: src/umask.blp:20 src/umask.blp:108
+#, fuzzy
+msgid "Files"
 msgstr "Bestand"
 
-#: data/ui/ShortcutsWindow.ui:11
-msgid "Open File"
-msgstr "Bestand openen"
-
-#: data/ui/ShortcutsWindow.ui:12
-msgid "Open file chooser dialog"
-msgstr "Bestandskeuzevenster openen"
-
-#: data/ui/ShortcutsWindow.ui:20
-msgid "General"
-msgstr "Algemeen"
-
-#: data/ui/ShortcutsWindow.ui:23
-msgid "Quit App"
-msgstr "Toepassing afsluiten"
-
-#: data/ui/ShortcutsWindow.ui:29
-msgid "Close Window"
-msgstr "Venster sluiten"
-
-#: data/ui/ShortcutsWindow.ui:35
-msgid "Help dialog"
-msgstr "Hulpvenster openen"
-
-#: data/ui/ShortcutsWindow.ui:36
-msgid "Display the help dialog"
-msgstr "Toon het hulpvenster"
-
-#: data/ui/ShortcutsWindow.ui:43
-msgid "Display this keyboard shortcuts window"
-msgstr "Toon dit sneltoetsenvenster"
-
-#: data/io.github.ronniedroid.concessio.desktop:9
-msgid "Permissions;Convertor;Calculator;"
-msgstr "Rechten;Converteren;Berekenen;Bevoegdheden;Permissies;Machtigingen;"
-
-#: data/io.github.ronniedroid.concessio.metainfo.xml:11 src/application.js:74
-msgid ""
-"Concessio helps you understand and convert between unix permissions "
-"representations"
+#: src/umask.blp:21 src/umask.blp:152
+msgid "Directories"
 msgstr ""
-"Met Concessio krijgt u inzicht in Unixrechten en hulp bij het converteren en/"
-"of berekenen ervan"
 
-#: data/io.github.ronniedroid.concessio.metainfo.xml:13
+#: src/umask.blp:26
+msgid "Choose the value you know"
+msgstr ""
+
+#: src/umask.blp:29
+#, fuzzy
+msgid "Known value"
+msgstr "Waarde kopiëren"
+
+#: src/umask.blp:30
 msgid ""
-"Convert between symbolic and numeric representations of UNIX file permissions"
-msgstr "Converteer symbolische en numerieke Unixrechten"
+"Choose whether to enter a umask, file permissions, or directory permissions."
+msgstr ""
 
-#: data/io.github.ronniedroid.concessio.metainfo.xml:14
-msgid "Use toggle buttons to update the symbolic and numeric fields"
-msgstr "Klik op de schakelaars om de velden bij te werken"
+#: src/umask.blp:40
+msgid "Enter an octal value from 000 to 777 for the selected input type."
+msgstr ""
 
-#: data/io.github.ronniedroid.concessio.metainfo.xml:15
-msgid "Open a file to read it's permissions and convert them"
-msgstr "Open een bestand om de rechten ervan uit te lezen en/of te converteren"
+#: src/umask.blp:65
+#, fuzzy
+msgid "Umask needed for these permissions"
+msgstr "Inzicht in bestandsrechten"
 
-#: data/io.github.ronniedroid.concessio.metainfo.xml:16
-msgid "Open the help dialog to read and understand the UNIX permissions system"
-msgstr "Open het hulpvenster om het Unix-rechtensysteem te leren begrijpen"
+#: src/umask.blp:71 src/umask.blp:78
+#, fuzzy
+msgid "About umask"
+msgstr "Over"
 
-#: data/io.github.ronniedroid.concessio.metainfo.xml:30
+#: src/umask.blp:84
 msgid ""
-"Application main page converting between numeric and symbolic permission"
-msgstr "Hoofdvenster met convertering tussen numerieke en symbolische rechten"
+"A umask specifies which permissions are removed when new files and "
+"directories are created."
+msgstr ""
 
-#: data/io.github.ronniedroid.concessio.metainfo.xml:34
-msgid "Application help page, explaining unix permissions"
-msgstr "Hulpvenster met uitleg omtrent Unixrechten"
+#: src/umask.blp:109
+msgid "New files will be created with this permission"
+msgstr ""
 
-#. Translators: Replace "translator-credits" with your names, one name per line
-#: src/application.js:84
-msgid "translator-credits"
-msgstr "Heimen Stoffels <vistausss@fastmail.com>"
+#: src/umask.blp:115 src/umask.blp:122
+#, fuzzy
+msgid "About file permissions"
+msgstr "Inzicht in bestandsrechten"
 
-#: src/application.js:87
-msgid "Special thanks to"
-msgstr "Veel dank aan"
+#: src/umask.blp:128
+msgid ""
+"New files start with permission 666. A umask can remove permissions, but "
+"cannot add execute permission."
+msgstr ""
 
-#: src/window.js:141
-msgid "Copied to clipboard!"
-msgstr "Gekopieerd naar het klembord!"
+#: src/umask.blp:153
+msgid "New directories will be created with this permission"
+msgstr ""
 
-#: src/window.js:162
-msgid "Failed to open file."
-msgstr "Het bestand kan niet worden geopend."
+#: src/umask.blp:159 src/umask.blp:166
+#, fuzzy
+msgid "About directory permissions"
+msgstr "Unixrechten"
+
+#: src/umask.blp:172
+msgid ""
+"New directories start with permission 777. A umask can remove read, write, "
+"and execute permissions."
+msgstr ""
+
+#~ msgid "chmod 754 (file name)"
+#~ msgstr "chmod 754 (bestandsnaam)"
+
+#~ msgid "chmod 7745 (file name)"
+#~ msgstr "chmod 7745 (bestandsnaam)"
+
+#, fuzzy
+#~ msgid "Copy umask value"
+#~ msgstr "Waarde kopiëren"
+
+#, fuzzy
+#~ msgid "Apply umask value"
+#~ msgstr "Waarde kopiëren"
+
+#~ msgid "Open"
+#~ msgstr "Openen"
+
+#~ msgid "Open file chooser dialog"
+#~ msgstr "Bestandskeuzevenster openen"
+
+#~ msgid "Copied to clipboard!"
+#~ msgstr "Gekopieerd naar het klembord!"
+
+#~ msgid "General"
+#~ msgstr "Algemeen"
